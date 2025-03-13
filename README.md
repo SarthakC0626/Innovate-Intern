@@ -24,7 +24,6 @@ A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detecto
 - Clone this repository.
   * Note: We currently only support Python 3+.
 - Then download the dataset by following the [instructions](#datasets) below.
-- We now support [Visdom](https://github.com/facebookresearch/visdom) for real-time loss visualization during training!
   * To use Visdom in the browser:
   ```Shell
   # First install Python server and client
@@ -33,7 +32,6 @@ A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detecto
   python -m visdom.server
   ```
   * Then (during training) navigate to http://localhost:8097/ (see the Train section below for training details).
-- Note: For training, we currently support [VOC](http://host.robots.ox.ac.uk/pascal/VOC/) and [COCO](http://mscoco.org/), and aim to add [ImageNet](http://www.image-net.org/) support soon.
 
 ## Datasets
 To make things easy, we provide bash scripts to handle the dataset downloads and setup for you.  We also provide simple dataset loaders that inherit `torch.utils.data.Dataset`, making them fully compatible with the `torchvision.datasets` [API](http://pytorch.org/docs/torchvision/datasets.html).
@@ -167,7 +165,7 @@ We have accumulated the following to-do list, which we hope to complete in the n
 
 ## References
 - Wei Liu, et al. "SSD: Single Shot MultiBox Detector." [ECCV2016]((http://arxiv.org/abs/1512.02325)).
-- [Original Implementation (CAFFE)](https://github.com/weiliu89/caffe/tree/ssd)
-- A huge thank you to [Alex Koltun](https://github.com/alexkoltun) and his team at [Webyclip](http://www.webyclip.com) for their help in finishing the data augmentation portion.
-- A list of other great SSD ports that were sources of inspiration (especially the Chainer repo):
-  * [Chainer](https://github.com/Hakuyume/chainer-ssd), [Keras](https://github.com/rykov8/ssd_keras), [MXNet](https://github.com/zhreshold/mxnet-ssd), [Tensorflow](https://github.com/balancap/SSD-Tensorflow)
+-a huge thank you to amdgroot for essential models and data sets.
+[Keras](https://github.com/rykov8/ssd_keras), [MXNet](https://github.com/zhreshold/mxnet-ssd), [Tensorflow](https://github.com/balancap/SSD-Tensorflow)
+
+
