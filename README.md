@@ -164,7 +164,7 @@ jupyter notebook
 
 ## References
 - Wei Liu, et al. "SSD: Single Shot MultiBox Detector." [ECCV2016]((http://arxiv.org/abs/1512.02325)).
--a huge thank you to amdgroot for essential models and data sets.
+- A huge thank you to amdgroot for essential models and data sets.
 [Keras](https://github.com/rykov8/ssd_keras), [MXNet](https://github.com/zhreshold/mxnet-ssd), [Tensorflow](https://github.com/balancap/SSD-Tensorflow)
 
 
