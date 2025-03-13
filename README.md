@@ -150,7 +150,6 @@ jupyter notebook
 - Running `python -m demo.live` opens the webcam and begins detecting!
 
 ## TODO
-We have accumulated the following to-do list, which we hope to complete in the near future
 - Still to come:
   * [x] Support for the MS COCO dataset
   * [ ] Support for SSD512 training and testing
